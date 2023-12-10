@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { MdMail } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -30,14 +31,16 @@ const Navbar = () => {
         {navLinks}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
         {navLinks}
+        
     </ul>
   </div>
   <div className="navbar-end">
+  <a className="btn bg-neutral hover:bg-black text-white " href="mailto:ahnaf.ahmed.42173@gmail.com" download><MdMail></MdMail> Email Me</a>
   </div>
 </div>
     );
