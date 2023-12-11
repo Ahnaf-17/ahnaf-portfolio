@@ -1,4 +1,4 @@
-
+import '../Style/cardStyle.css'
 const Skills = () => {
     return (
         <div className="my-10">
@@ -95,6 +95,32 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className="skill-container">
+                <div className="skills">
+                    <img className='img-skill' src="/src/assets/js.png" alt=""/>
+                    <h3 className="skill-title">Vailla javaScript</h3>
+                    <p className="skill-text">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div className="skills">
+                    <img src="/src/assets/react.png" alt=""/>
+                    <h3 className="skill-title">React</h3>
+                    <p className="skill-text">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div className="skills">
+                    <img src="/src/assets/node.png" alt=""/>
+                    <h3 className="skill-title">Node.js</h3>
+                    <p className="skill-text">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div className="skills">
+                    <img src="/src/assets/mongo.jpg" alt=""/>
+                    <h3 className="skill-title">MongoDB</h3>
+                    <p className="skill-text">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div> */}
         </div>
     );
 };
