@@ -1,4 +1,12 @@
 import '../Style/cardStyle.css'
+import img1 from '../assets/react.png'
+import img2 from '../assets/HTML5_Badge.svg.png'
+import img3 from '../assets/css.png'
+import img4 from '../assets/js.png'
+import img5 from '../assets/express.png'
+import img6 from '../assets/tailwind.png'
+import img7 from '../assets/node.png'
+import img8 from '../assets/mongo.jpg'
 const Skills = () => {
     return (
         <div className="my-10">
@@ -8,7 +16,7 @@ const Skills = () => {
             <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4">
                 <div className="card bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/react.png" alt="Shoes" className="rounded-xl" />
+                        <img src={img1} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">React</h2>
@@ -19,7 +27,7 @@ const Skills = () => {
                 </div>
                 <div className="card  bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/HTML5_Badge.svg.png" alt="Shoes" className="rounded-xl" />
+                        <img src={img2} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">HTML</h2>
@@ -30,7 +38,7 @@ const Skills = () => {
                 </div>
                 <div className="card  bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/css.png" alt="Shoes" className="rounded-xl" />
+                        <img src={img3} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">CSS</h2>
@@ -41,7 +49,7 @@ const Skills = () => {
                 </div>
                 <div className="card  bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/js.png" alt="Shoes" className="rounded-xl" />
+                        <img src={img4} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">JavaScript</h2>
@@ -52,7 +60,7 @@ const Skills = () => {
                 </div>
                 <div className="card  bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/express.png" alt="Shoes" className="rounded-xl" />
+                        <img src={img5} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Express.js</h2>
@@ -63,7 +71,7 @@ const Skills = () => {
                 </div>
                 <div className="card  bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/tailwind.png" alt="Shoes" className="rounded-xl" />
+                        <img src={img6} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Tailwind CSS</h2>
@@ -74,7 +82,7 @@ const Skills = () => {
                 </div>
                 <div className="card  bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/node.png" alt="Shoes" className="rounded-xl" />
+                        <img src={img7} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Node.js</h2>
@@ -85,7 +93,7 @@ const Skills = () => {
                 </div>
                 <div className="card  bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src="/src/assets/mongo.jpg" alt="Shoes" className="rounded-xl" />
+                        <img src={img8} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">MongoDB</h2>

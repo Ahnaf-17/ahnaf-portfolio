@@ -2,16 +2,21 @@
 
 import { FaCode, FaPlay } from "react-icons/fa6";
 
+import img1 from '../assets/medico.png'
+import img2 from '../assets/blog.png'
+import img3 from '../assets/shop.png'
+
+
 const Projects = () => {
     return (
         <div className="my-20 mb-10">
             <div className="my-8">
-                <h3 className="text-4xl font-extrabold  items-center text-center">My recent Projects</h3>
+                <h3 className="text-4xl font-extrabold  items-center text-center">My recent projects</h3>
             </div>
 
             <div className="hero bg-base-100">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src="/src/assets/medico.png" className="max-w-sm rounded-lg shadow-2xl" />
+                    <img src={img1} className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-3xl font-bold">Medico</h1>
                         <p className="py-6">Medical Camp Management System .It is an user-friendly MERN
@@ -30,7 +35,7 @@ const Projects = () => {
 
             <div className="hero bg-base-100">
                 <div className="hero-content flex-col lg:flex-row-reverse text-right">
-                    <img src="/src/assets/blog.png" className="max-w-sm rounded-lg shadow-2xl" />
+                    <img src={img2} className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-3xl font-bold">Travelers Blog</h1>
                         <p className="py-6">It is a platform where blogger's (specially travel blogger's) can share their
@@ -48,7 +53,7 @@ const Projects = () => {
 
             <div className="hero bg-base-100">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src="/src/assets/shop.png" className="max-w-sm  rounded-lg shadow-2xl" />
+                    <img src={img3} className="max-w-sm  rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-3xl font-bold">Classy Shop</h1>
                         <p className="py-6">A MERN(MongoDB, Express.js, React, Node.js) application . It is basically
