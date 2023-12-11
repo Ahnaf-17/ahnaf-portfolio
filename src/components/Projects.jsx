@@ -4,7 +4,7 @@ import { FaCode, FaPlay } from "react-icons/fa6";
 
 const Projects = () => {
     return (
-        <div className="my-20">
+        <div className="my-20 mb-10">
             <div className="my-8">
                 <h3 className="text-4xl font-extrabold  items-center text-center">My recent Projects</h3>
             </div>
@@ -20,8 +20,8 @@ const Projects = () => {
                         {/* <button className="btn btn-primary">Get Started</button> */}
                         <div className="">
                         <a className="btn btn-outline text-black mr-1" href="https://medico-76bc1.web.app/" ><FaPlay ></FaPlay>Live Preview</a>
-                        <a className="btn btn-outline text-black mr-1" href="resume_ahnaf.pdf" ><FaCode></FaCode> Client Repository</a>
-                        <a className="btn btn-outline text-black" href="resume_ahnaf.pdf" ><FaCode></FaCode> Server Repository</a>
+                        <a className="btn btn-outline text-black mr-1" href="https://github.com/Ahnaf-17/medico-client" ><FaCode></FaCode> Client Repository</a>
+                        <a className="btn btn-outline text-black" href="https://github.com/Ahnaf-17/medico-server" ><FaCode></FaCode> Server Repository</a>
                         </div>
                     </div>
                 </div>
@@ -38,8 +38,8 @@ const Projects = () => {
                             Express.js, React, Node.js)</p>
                             <div className="">
                         <a className="btn btn-outline text-black mr-1" href="https://blog-a53ab.web.app/" ><FaPlay ></FaPlay>Live Preview</a>
-                        <a className="btn btn-outline text-black mr-1" href="resume_ahnaf.pdf" ><FaCode></FaCode> Client Repository</a>
-                        <a className="btn btn-outline text-black" href="resume_ahnaf.pdf" ><FaCode></FaCode> Server Repository</a>
+                        <a className="btn btn-outline text-black mr-1" href="https://github.com/Ahnaf-17/blog-client" ><FaCode></FaCode> Client Repository</a>
+                        <a className="btn btn-outline text-black" href="https://github.com/Ahnaf-17/blog-server" ><FaCode></FaCode> Server Repository</a>
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ const Projects = () => {
                             a clothing website where different clothing brand can sell their products.</p>
                             <div className="">
                         <a className="btn btn-outline text-black mr-1" href="https://classy-shop.web.app/#slide1" ><FaPlay ></FaPlay>Live Preview</a>
-                        <a className="btn btn-outline text-black mr-1" href="resume_ahnaf.pdf" ><FaCode></FaCode> Client Repository</a>
-                        <a className="btn btn-outline text-black" href="resume_ahnaf.pdf" ><FaCode></FaCode> Server Repository</a>
+                        <a className="btn btn-outline text-black mr-1" href="https://github.com/Ahnaf-17/classy-shop-server" ><FaCode></FaCode> Client Repository</a>
+                        <a className="btn btn-outline text-black" href="https://github.com/Ahnaf-17/classy-shop-client" ><FaCode></FaCode> Server Repository</a>
                         </div>                    </div>
                 </div>
             </div>
