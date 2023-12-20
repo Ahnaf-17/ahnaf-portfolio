@@ -7,8 +7,8 @@ import resume from '../assets/resume_ahnaf.pdf'
 import img from '../assets/resized-image.jpg'
 const Banner = () => {
     return (
-        <div className="hero min-h-[500px] bg-base-100">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero min-h-[500px] bg-base-content">
+            <div className="hero-content flex-col lg:flex-row-reverse text-white">
                 <img src={img} className="max-w-sm rounded-lg " />
                 <div>
                     <h1 className="text-5xl font-bold">Hello, I'm <br />Ahnaf Ahmed</h1>
