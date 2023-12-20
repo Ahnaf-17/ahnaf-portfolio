@@ -7,13 +7,19 @@ import img5 from '../assets/express.png'
 import img6 from '../assets/tailwind.png'
 import img7 from '../assets/node.png'
 import img8 from '../assets/mongo.jpg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 const Skills = () => {
-    return (
+    useEffect(()=>{
+        Aos.init({duration: '1000'})
+    },[])
+    return ( 
         <div className="my-10">
             <div className="my-8">
                 <h3 className="text-4xl font-extrabold  items-center text-center">Familiar with</h3>
             </div>
-            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4" >
                 <div className="card bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src={img1} alt="Shoes" className="rounded-xl" />
